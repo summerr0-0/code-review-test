@@ -13,7 +13,12 @@ public class TestController {
         int a = 0;
         int b = 3;
         int c = 5;
-        System.out.println(a+b+c);
+        System.out.println(b+c);
+
         return testPassword;
+    }
+
+    public void testMethod() {
+        System.out.println("This is a test method");
     }
 }
